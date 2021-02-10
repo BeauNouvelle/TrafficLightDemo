@@ -56,15 +56,23 @@
 		8BC4618D25D3CC1B00182064 /* TrafficLight */ = {
 			isa = PBXGroup;
 			children = (
+				8BC461A325D3CC2C00182064 /* Controllers */,
 				8BC4618E25D3CC1B00182064 /* AppDelegate.swift */,
 				8BC4619025D3CC1B00182064 /* SceneDelegate.swift */,
-				8BC4619225D3CC1B00182064 /* ViewController.swift */,
 				8BC4619425D3CC1B00182064 /* Main.storyboard */,
 				8BC4619725D3CC1C00182064 /* Assets.xcassets */,
 				8BC4619925D3CC1C00182064 /* LaunchScreen.storyboard */,
 				8BC4619C25D3CC1C00182064 /* Info.plist */,
 			);
 			path = TrafficLight;
+			sourceTree = "<group>";
+		};
+		8BC461A325D3CC2C00182064 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4619225D3CC1B00182064 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
